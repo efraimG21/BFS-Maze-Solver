@@ -1,6 +1,5 @@
 
 
-```markdown
 # BFS-Maze-Solver
 
 BFS-Maze-Solver is a C program that solves mazes using the Breadth-First Search (BFS) algorithm. The maze is represented as a 2D grid, and the program finds the shortest path from a starting point 'A' to a destination 'B'.
