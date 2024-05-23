@@ -40,16 +40,11 @@ To compile and run this project, you need a C compiler like `gcc`.
 
 ## Code Structure
 
-- `main.c`: Contains the main function and the program flow.
 - `BreadthFirstSearch.c`: Implements the BFS algorithm.
 - `Maze.c`: Initializes the maze and handles maze-related operations.
 - `Queue.c`: Provides queue operations to support BFS.
 - `Graph.c`: Manages the graph nodes used in the BFS algorithm.
-- `ADTDefs.h`: Contains common type definitions.
-- `Queue.h`: Declares the queue data structure and its functions.
-- `Maze.h`: Declares the maze data structure and its functions.
-- `BreadthFirstSearch.h`: Declares BFS-related functions.
-- `Graph.h`: Declares the graph node structure and related functions.
+
 
 ## Usage
 
