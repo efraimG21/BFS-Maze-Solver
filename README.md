@@ -1,3 +1,6 @@
+
+
+```markdown
 # BFS-Maze-Solver
 
 BFS-Maze-Solver is a C program that solves mazes using the Breadth-First Search (BFS) algorithm. The maze is represented as a 2D grid, and the program finds the shortest path from a starting point 'A' to a destination 'B'.
@@ -83,6 +86,25 @@ After finding the route:
 ####B#####
 ```
 
+
+## Complexity Analysis
+
+### Time Complexity
+
+The time complexity of the BFS algorithm in a maze is \(O(V + E)\), where \(V\) is the number of vertices (cells in the maze) and \(E\) is the number of edges (connections between the cells). In a grid-based maze with `n` rows and `m` columns:
+- \(V = n \times m\)
+- \(E = O(4 \times V) = O(n \times m)\) because each cell can have up to 4 neighbors.
+
+Thus, the time complexity simplifies to \(O(n \times m)\).
+
+### Space Complexity
+
+The space complexity of the BFS algorithm is \(O(V)\), where \(V\) is the number of vertices. This is because we need to store:
+- The queue, which can hold up to \(V\) vertices in the worst case.
+- The visited nodes or the node information in the maze.
+
+Hence, the space complexity is also \(O(n \times m)\).
+
 ## Contributing
 
 Contributions are welcome! If you have any improvements or bug fixes, please fork the repository, make your changes, and submit a pull request.
@@ -96,4 +118,3 @@ Contributions are welcome! If you have any improvements or bug fixes, please for
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
