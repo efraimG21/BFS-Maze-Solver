@@ -22,7 +22,7 @@ To compile and run this project, you need a C compiler like `gcc`.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/BFS-Maze-Solver.git
+   git clone https://github.com/efraimG21/BFS-Maze-Solver.git
    cd BFS-Maze-Solver
    ```
 
